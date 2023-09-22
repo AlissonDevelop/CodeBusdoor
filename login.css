@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background: rgb(174, 196, 200);
+    height: 100vh;
+}
+
+form { /* Largura da estrutura do imput no body */
+    width: 300px;
+}
+
+input { /* Retira as bordas */
+    border: none;
+}
+
+input,
+button { /* Tamanho dos imputs */
+   padding: 10px;
+}
+
+button { /* Espaço entre as margens do Botão */
+    margin-bottom: 10px;
+}
+
+.form-field { /* Espaço entre as margens dos imputs */
+    margin-bottom: 10px;
+}
+
+.centralize { /* Mantem tudo centralizado */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button { /* A seta do cursor muda para o formato de uma mão quando passa no butão */
+    cursor: pointer;
+}
+
+button:active {
+    opacity: 0.8;
+}
+
+.clear { 
+    background: transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+}
+
+
+.solid {
+    background: rgb(1, 238, 234);
+  
+   
+color: rgb(0, 0, 0);
+    font-weight: bold;
+    width: 100px;
+    padding: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+    display: block;
+}
+
+.form-field input {
+    font-style: italic;
+}
+
+div i {
+    font-size: 25px;
+    cursor: pointer;
+    position: relative;
+    left: -12%; /* ou outro valor negativo para mover para a esquerda */
+    color: rgb(42, 32, 32);
+    top: -5%;
+}
